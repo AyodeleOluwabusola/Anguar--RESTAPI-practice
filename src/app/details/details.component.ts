@@ -8,6 +8,7 @@ import { Data } from '../data'
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css']
 })
+
 export class DetailsComponent implements OnInit {
   data: Data[]
   constructor(
