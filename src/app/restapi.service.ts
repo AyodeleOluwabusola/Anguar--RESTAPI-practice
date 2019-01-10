@@ -18,8 +18,8 @@ export class RestapiService {
     private http: HttpClient,
   ) { }
 
-  //private baseUrl = 'https://reqres.in/api/users/data';
-  private baseUrl = 'https://jsonplaceholder.typicode.com/users/';
+  private baseUrl = 'http://localhost:5200/persons'
+  // private baseUrl = 'https://jsonplaceholder.typicode.com/users/';
 
 
   getData(): Observable<any> {
