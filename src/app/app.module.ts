@@ -8,14 +8,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { RestapiService } from './restapi.service';
 import { DetailsComponent } from './details/details.component';
 import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './header/header.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingpComponent,
     DetailsComponent,
-    HeaderComponent
   ],
   imports: [
     BrowserModule,
